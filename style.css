@@ -1,0 +1,12 @@
+/* 针对 class 为 intro-title 的标题进行设置 */
+.intro-title {
+    text-align: center;  /* 这行代码负责水平居中 */
+    margin-top: 20px;    /* 距离网页最顶部的距离，数字越大越往下 */
+    font-size: 32px;     /* 顺便可以调整字体大小 */
+    color: #333;         /* 设置字体颜色 */
+}
+
+/* 如果你想让下面的 <p> 标签内容也居中 */
+p {
+    text-align: center;
+}
